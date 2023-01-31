@@ -2,12 +2,83 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
+  color: $main-text-color;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+.section-hero {
+  padding-top: 180px;
+  padding-bottom: 104px;
+  @media screen and (min-width: 1024px) {
+    padding-top: 188px;
+    padding-bottom: 64px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-top: 164px;
+  }
+}
+.section-about {
+  padding-top: 16px;
+  padding-bottom: 72px;
+  @media screen and (min-width: 1024px) {
+    padding-top: 120px;
+    padding-bottom: 96px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+.section-details {
+  padding-top: 24px;
+  padding-bottom: 40px;
+  @media screen and (min-width: 1024px) {
+    padding-top: 48px;
+    padding-bottom: 96px;
+  }
+}
+.section-contacts {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  @media screen and (min-width: 1024px) {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+}
+
+.section-menu,
+.section-amenities,
+.section-room {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  @media screen and (min-width: 1024px) {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
+.section-menu {
+  @media screen and (min-width: 1280px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+.section-room {
+  @media screen and (min-width: 1024px) {
+    padding-top: 64px;
+    padding-bottom: 104px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-top: 72px;
+    padding-bottom: 112px;
+  }
+}
+
+.page-footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  @media screen and (min-width: 1024px) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
 }
